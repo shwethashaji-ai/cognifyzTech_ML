@@ -1,4 +1,3 @@
-# 🚀 CognifyzTech - Data Analysis Project
 
 ## 📌 Overview
 Welcome to the **CognifyzTech Data Analysis Project**! This repository contains a **Jupyter Notebook** showcasing various **data analysis techniques** using Python. Dive in to explore **data processing, visualization, and insights generation** in an interactive manner.
