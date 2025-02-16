@@ -1,67 +1,62 @@
-# predict_restaurant_ratings_ML
-Overview
+# 🚀 CognifyzTech - Data Analysis Project
 
-This repository contains a Jupyter Notebook that demonstrates data analysis techniques. The project is designed to showcase data processing, visualization, and insights generation using Python.
+## 📌 Overview
+Welcome to the **CognifyzTech Data Analysis Project**! This repository contains a **Jupyter Notebook** showcasing various **data analysis techniques** using Python. Dive in to explore **data processing, visualization, and insights generation** in an interactive manner.
 
-Features
+## ✨ Features
+✅ Data preprocessing and cleaning  
+✅ Exploratory Data Analysis (EDA)  
+✅ Data visualization with **Matplotlib** and **Seaborn**  
+✅ Statistical analysis and insights generation  
 
-Data preprocessing and cleaning
+## 🔧 Installation
+Follow these steps to run the notebook on your local machine:
 
-Exploratory Data Analysis (EDA)
+1️⃣ Clone the repository:
+   ```sh
+   git clone https://github.com/shwethashaji-ai/predict_restaurant_ratings_ML/blob/main/cognifyzTech.ipynb
+   cd cognifyzTech
+   ```
+2️⃣ Create a virtual environment (optional but recommended):
+   ```sh
+   python -m venv env
+   source env/bin/activate  # On Windows use `env\Scripts\activate`
+   ```
+3️⃣ Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+4️⃣ Open Jupyter Notebook:
+   ```sh
+   jupyter notebook cognifyzTech.ipynb
+   ```
 
-Data visualization using Matplotlib and Seaborn
+## 📦 Dependencies
+Make sure you have these Python libraries installed:
+- 📊 pandas
+- 🔢 numpy
+- 📈 matplotlib
+- 📉 seaborn
+- 📝 jupyter
 
-Statistical analysis and insights generation
-
-Installation
-
-To run this notebook on your local machine, follow these steps:
-
-Clone the repository:
-
-git clone https://github.com/shwethashaji-ai/predict_restaurant_ratings_ML/blob/main/cognifyzTech.ipynb
-cd cognifyzTech
-
-Create a virtual environment (optional but recommended):
-
-python -m venv env
-source env/bin/activate  # On Windows use `env\Scripts\activate`
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Open Jupyter Notebook:
-
-jupyter notebook cognifyzTech.ipynb
-
-Dependencies
-
-Ensure you have the following Python libraries installed:
-
-pandas
-
-numpy
-
-matplotlib
-
-seaborn
-
-jupyter
-
-You can install them using:
-
+Install them using:
+```sh
 pip install pandas numpy matplotlib seaborn jupyter
+```
 
-Usage
+## 🎯 Usage
+1️⃣ Open the notebook and run the cells sequentially.  
+2️⃣ Modify parameters and code snippets to explore the data further.  
+3️⃣ Analyze **visualizations and insights** derived from the analysis.  
 
-Open the notebook and run the cells sequentially.
+## 🤝 Contributing
+🚀 Feel free to **fork** the repository, **create a branch**, and **submit pull requests** for any improvements or additional analysis.
 
-Modify parameters and code snippets as needed to explore the data further.
+## 📜 License
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-Interpret visualizations and insights derived from the analysis.
+## 👤 Author
+✍️ Your Name - [GitHub Profile](https://github.com/yourusername)  
+📧 Contact: your.email@example.com
 
-Contributing
-
-Feel free to fork the repository, create a branch, and submit pull requests for any improvements or additional analysis.
 
