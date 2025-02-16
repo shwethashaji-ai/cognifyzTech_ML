@@ -51,9 +51,6 @@ pip install pandas numpy matplotlib seaborn jupyter
 ## 🤝 Contributing
 🚀 Feel free to **fork** the repository, **create a branch**, and **submit pull requests** for any improvements or additional analysis.
 
-## 📜 License
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
 ## 👤 Author
 ✍️ Your Name - https://github.com/shwethashaji-ai
 📧 Contact: shwetha.shaji15@gmail.com
