@@ -20,7 +20,7 @@ Follow these steps to run the notebook on your local machine:
 
 1️⃣ Clone the repository:
    ```sh
-   git clone https://github.com/shwethashaji-ai/predict_restaurant_ratings_ML/blob/main/cognifyzTech.ipynb
+   git clone https://github.com/shwethashaji-ai/cognifyzTech_ML/blob/main/predict_restaurant_ratings.ipynb
    cd cognifyzTech
    ```
 2️⃣ Create a virtual environment (optional but recommended):
