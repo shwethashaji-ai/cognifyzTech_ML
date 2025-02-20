@@ -1,67 +1,89 @@
-# 🚀 CognifyzTech - Machine Learning Project
+# 📌 Restaurant Data Analysis & Machine Learning Project
 
-## 📌 Objective
-Build a **machine learning model** to predict the **aggregate rating** of a restaurant based on other features.
+## 🚀 Overview
+This project leverages machine learning and data analysis techniques to explore restaurant data. It includes predicting restaurant ratings, recommending restaurants, classifying cuisines, and performing geographical analysis.
 
-## 🛠 Steps
-1️⃣ **Preprocess the dataset** by handling missing values, encoding categorical variables, and splitting the data into training and testing sets.  
-2️⃣ **Select a regression algorithm** (e.g., Linear Regression, Decision Tree Regression) and train it on the training data.  
-3️⃣ **Evaluate the model's performance** using appropriate regression metrics (e.g., Mean Squared Error, R-Squared) on the testing data.  
-4️⃣ **Interpret the model's results** and analyze the most influential features affecting restaurant ratings.  
+---
 
-## ✨ Features
-✅ Data preprocessing and cleaning  
-✅ Exploratory Data Analysis (EDA)  
-✅ Machine Learning model training  
-✅ Model evaluation and interpretation  
+## 📂 Tasks
 
-## 🔧 Installation
-Follow these steps to run the notebook on your local machine:
+### 🔍 Task 1: Predicting Restaurant Ratings
+**🎯 Objective:** Develop a machine learning model to predict restaurant ratings based on various features.
 
-1️⃣ Clone the repository:
-   ```sh
-   git clone https://github.com/shwethashaji-ai/cognifyzTech_ML/blob/main/predict_restaurant_ratings.ipynb
-   cd cognifyzTech
-   ```
-2️⃣ Create a virtual environment (optional but recommended):
-   ```sh
-   python -m venv env
-   source env/bin/activate  # On Windows use `env\Scripts\activate`
-   ```
-3️⃣ Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-4️⃣ Open Jupyter Notebook:
-   ```sh
-   jupyter notebook cognifyzTech.ipynb
-   ```
+**🛠️ Steps:**
+✅ Data preprocessing (handling missing values, encoding categorical variables, splitting datasets)
+✅ Train regression models (e.g., Linear Regression, Decision Tree Regression)
+✅ Evaluate performance (Mean Squared Error, R-Squared, etc.)
+✅ Analyze key influencing factors for restaurant ratings
 
-## 📦 Dependencies
-Make sure you have these Python libraries installed:
-- 📊 pandas
-- 🔢 numpy
-- 📈 matplotlib
-- 📉 seaborn
-- 🤖 scikit-learn
-- 📝 jupyter
+---
 
-Install them using:
-```sh
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+### 🍽️ Task 2: Restaurant Recommendation System
+**🎯 Objective:** Build a recommendation system based on user preferences.
+
+**🛠️ Steps:**
+✅ Preprocess data (handling missing values, encoding categorical variables)
+✅ Define recommendation criteria (cuisine preference, price range, etc.)
+✅ Implement a content-based filtering system
+✅ Test recommendations using sample user inputs
+
+---
+
+### 🍕 Task 3: Cuisine Classification Model
+**🎯 Objective:** Use machine learning to classify restaurants based on their cuisines.
+
+**🛠️ Steps:**
+✅ Data preprocessing (handling missing values, encoding categorical variables)
+✅ Split the dataset into training and testing sets
+✅ Train classification models (e.g., Logistic Regression, Random Forest)
+✅ Evaluate model accuracy using metrics (precision, recall, F1-score)
+✅ Identify biases and challenges in classification
+
+---
+
+### 🌍 Task 4: Geographical Analysis of Restaurants
+**🎯 Objective:** Perform a spatial analysis of restaurant locations.
+
+**🛠️ Steps:**
+✅ Visualize restaurant locations using latitude & longitude data
+✅ Group restaurants by city/locality & analyze distribution
+✅ Compute statistics (average ratings, cuisine diversity, price range)
+✅ Identify trends and insights from the data
+
+---
+
+## 📦 Installation & Requirements
+🔹 Python 3.x
+🔹 Required libraries: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `folium`
+🔹 Clone the repository and install dependencies:
+```bash
+ git clone <repository-url>
+ cd <project-folder>
+ pip install -r requirements.txt
 ```
 
+---
+
 ## 🎯 Usage
-1️⃣ Open the notebook and run the cells sequentially.  
-2️⃣ Train and evaluate the machine learning model.  
-3️⃣ Interpret results and analyze feature importance.  
+Run the corresponding Python scripts for each task:
+```bash
+python predict_restaurant_ratings.ipynb   # Task 1
+python restaurant_recom.ipynb       # Task 2
+python Cuisine_Classification.ipynb # Task 3
+python location_based_analysis.ipynb     # Task 4
+```
+
+---
 
 ## 🤝 Contributing
-🚀 Feel free to **fork** the repository, **create a branch**, and **submit pull requests** for any improvements or additional analysis.
+Contributions are welcome! Feel free to fork this repository and submit pull requests for improvements or additional features.
 
-## 👤 Author
-✍️ Your Name - shwethashaji-ai 
-📧 Contact: shwetha.shaji15@gmail.com
+---
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
+
 
 
 
